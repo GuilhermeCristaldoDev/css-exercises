@@ -20,6 +20,27 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em;
+  display: flex;
+}
+
+.modal .header{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.header-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-content{
+  margin-left: .8em;
+}
+
+.container-content .text{
+  margin-top: .5em;
+  margin-bottom: .8em;
 }
 
 .icon {
@@ -39,8 +60,8 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 1000;
+  font-size: 14px;
   height: 24px;
   width: 24px;
   display: flex;
